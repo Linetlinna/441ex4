@@ -1,0 +1,192 @@
+body {    
+  font-family: Arial, sans-serif;    
+  margin: 0;    
+  padding: 20px;    
+}  
+  
+nav {    
+  background-color: #333;    
+  color: white;  
+  display: flex; /* 启用Flexbox布局 */  
+  justify-content: center; /* 居中对齐子元素（链接） */  
+  align-items: center; /* 垂直居中对齐（如果nav中有单行内容） */  
+  padding: 10px 0; /* 上下内边距为10px，左右内边距为0 */  
+  /* 如果你希望nav填满水平空间，不需要额外设置，因为它默认就会这样做（除非被其他样式覆盖） */  
+}  
+  
+nav ul {    
+  list-style-type: none; /* 移除列表标记 */  
+  margin: 0; /* 移除外边距 */  
+  padding: 0; /* 移除内边距 */  
+  display: flex; /* 使列表项（链接）可以水平排列 */  
+}  
+
+nav a {    
+  color: white;    
+  text-decoration: none;  
+  /* 如果需要在链接之间有间距，保留margin-right；如果不需要，可以去掉 */  
+  margin-right: 30px;  
+}  
+  
+/* 移除最后一个链接的右边距 */  
+nav li:last-child a {  
+  margin-right: 0;  
+}
+
+footer {  
+  background-color: #333;  
+  color: #fff;  
+  text-align: center;  
+  padding: 1px;  
+  position: fixed;  
+  left: 0;  
+  bottom: 0;  
+  width: 100%;  
+  clear: both;
+  position: relative;
+}
+header {  
+  text-align: center; /* 居中标题 */  
+  padding: 260px 0; /* 添加一些上下内边距 */  
+  background-color: #f2f2f2; /* 示例背景色，可以自定义 */  
+} 
+body {  
+  margin: 0;  
+  padding: 20px;  
+  font-family: Arial, sans-serif;  
+}  
+ 
+.piece{
+  font-size: medium;
+}
+
+.price{
+  text-align: center;
+}
+
+.price a{
+  font-weight: bold;
+  color: #000;
+  text-decoration: none;
+}
+
+.price a:hover{
+  text-decoration-line: underline;
+}
+
+.bordered-form {  
+  border: 2px solid #000; /* Sets the border style, width, and color */  
+  padding: 20px; /* Add inside margins so that there is space between the content and the border */  
+  margin: 0 auto;  
+  max-width: 600px;  
+  margin-bottom: 50px;
+  margin-top: 50px; 
+}  
+
+
+.bordered-form h1 {  
+  text-align: center; 
+  margin-bottom: 20px; 
+}  
+
+.form-group {  
+  margin-bottom: 15px; 
+  margin-right: 10px; 
+}  
+
+.form-group label {  
+  display: block;
+  margin-bottom: 5px; 
+}  
+
+
+.form-row {  
+  display: flex;  
+  justify-content: space-between; 
+  align-items: flex-start; 
+}  
+.form-two {  
+  display: flex;  
+  justify-content: space-between; 
+  align-items: flex-start; 
+}
+.flex-container {  
+  display: flex;  
+  justify-content: center; 
+  align-items: center; 
+  
+}  
+/*login*/ 
+.form{
+  width: 30%;
+  background-color: rgb(240, 202, 231);
+  border-radius: 10px;
+  margin: 180px auto;
+  padding: 1px 30px 20px;
+  display: grid;
+  align-items: center;
+}
+
+.login label{
+  display: block;
+  font-size: medium;
+}
+
+.login input{
+  width: 100%;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+.login a{
+  font-size: small;
+}
+
+.input {
+  width: 17%;
+  margin: 10px auto 5px;
+  padding: 5px;
+}
+.form button{
+  width: 15%;
+  padding: 5px;
+  box-sizing: border-box;
+}
+.center-button {  
+  text-align: center;  
+  margin-top: 50px; 
+}
+.form p{
+  text-align: center;  
+}
+.title {
+  text-align: center;  
+}
+.courseware {  
+  width: 100%;  
+  display: flex;  
+  flex-wrap: wrap;
+  justify-content: space-between;
+}  
+.shop {  
+  flex: 0 0 calc(33.33% - 20px); 
+  margin: 10px; 
+  box-sizing: border-box;   
+ 
+  background-color: #fff;  
+  border: 1px solid #ccc;  
+  padding: 10px;   
+  display: flex;  
+  flex-direction: column;  
+  align-items: center; 
+}
+.cart {  
+ 
+  border: 1px solid #646464; 
+  border-radius: 5px; 
+  padding: 10px; 
+  margin-bottom: 20px; 
+  background-color: #fff; 
+}
+
+
